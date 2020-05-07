@@ -1,0 +1,9 @@
+server:
+    port: 8889
+spring:
+    application:
+      name: config-pro
+eureka:
+    client:
+      service-url:
+        defaultZone: http://eureka7001:7001/eureka
